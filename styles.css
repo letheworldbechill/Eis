@@ -31,6 +31,12 @@ button:hover {
 main {
   padding: 20px;
   line-height: 1.6;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   white-space: pre-line;
+}
+
+footer {
+  padding: 20px;
+  font-size: 0.9rem;
+  opacity: 0.8;
 }
