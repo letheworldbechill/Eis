@@ -1,20 +1,27 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="de">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Realitätskompass</title>
+<title>Realitätskompass v3</title>
 <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 <nav>
   <button data-page="morning">Morgens</button>
   <button data-page="evening">Abends</button>
   <button data-page="reset">Reset</button>
   <button data-page="check">Realitätstest</button>
+  <button data-page="daily">Tagesverlauf</button>
 </nav>
 
 <main id="app">Wähle eine Klarheitsroutine.</main>
+
+<footer>
+  <div id="clarity-level">Klarheitspegel: –</div>
+</footer>
 
 <script src="app.js"></script>
 </body>
